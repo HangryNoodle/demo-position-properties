@@ -187,15 +187,20 @@ ul {
 }
 
 .relative {
+    position: relative;
+    top: 40px;
+    right: -20px;
     /* add relative properties here */
 }
 
 .relative-2 {
     /* add relative-2 properties here */
+    position: relative;
 }
 
 .absolute {
     /* add absolute properties here */
+    position: absolute;
 }
 
 .absolute-2 {
@@ -203,6 +208,9 @@ ul {
     height: 75px;
     border: 2px solid #a89070;
     /* add absolute-2 properties here */
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .absolute-2 .box-paragraph {
@@ -213,6 +221,9 @@ ul {
 
 .fixed {
     /* add fixed properties here */
+    position: fixed;
+    top: 50vh;
+    right: 0;
 }
 
 
